@@ -16,6 +16,7 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserInfoMapper userInfoMapper;
+    @Autowired
     private UserAddressMapper userAddressMapper;
     @Override
     public List<UserInfo> getUserInfoListAll() {
